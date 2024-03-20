@@ -5,6 +5,7 @@ from time import sleep
 while True:
   # Get balance from Binance
   balance = getBalanceUSDT()
+  print(balance)
   # Send balance notification
-  sendMessage('Your balance is ' + str(round(balance, 2)) + ' USDT')
+  sendMessage(balance)
   sleep(60)
