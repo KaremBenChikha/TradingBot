@@ -1,4 +1,3 @@
-pip3 install binance-futures-connector
-pip3 install pytelegrambotapi
-pip3 install python-dotenv
-pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+binance-futures-connector == 4.0.0
+pytelegrambotapi == 4.16.1
+python-dotenv == 1.0.1
